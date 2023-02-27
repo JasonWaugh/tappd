@@ -1,0 +1,16 @@
+/*
+Theme Name: Tappd
+Theme URI: www.tappd.co.za
+Template: hello-elementor
+Author: Donovan Anderson
+Author URI: www.donovananderson.co.za
+Version: 1.1663854192
+Updated: 2022-09-22 13:43:12
+
+*/
+
+function rt_before_after($content) {
+echo '<!-- aweee:' . basename( get_page_template() ) . ' -->';
+
+}
+add_filter('the_content', 'rt_before_after');

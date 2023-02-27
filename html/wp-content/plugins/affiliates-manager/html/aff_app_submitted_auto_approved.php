@@ -1,0 +1,1 @@
+<?php echo '<div id="wpam-reg-form">'.WPAM_MessageHelper::GetMessage('aff_app_submitted_auto_approved').'</div>'?>

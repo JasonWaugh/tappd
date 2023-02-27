@@ -1,0 +1,21 @@
+[tool.tartufo]
+exclude-paths="./exclude-patterns.txt"
+repo-path = "."
+default-regexes = true
+json = false
+regex = true
+entropy = true
+exclude-signatures = [
+  "1e272f8b5d1aef9be75f867711d27745f7e47c384ff1a3d508e9a69e87d21b7d",
+  # Filepath: .github/workflows/ci.yml
+  "da7b324701ea63a5cde8dcc16ce3b5ff96bd0b2550a566f00023d47f1fdd7428",
+  "70ab47252d065b887fbe8305ab1a20bc6c45aec91d0fc9a203ca8de52e795402",
+  "de0c32929d4ab1d30dd56613cb2f8e01c761fe467396f682cbf2f9ba97e89dce",
+  "ff919ecb2f9dd21947578d0b27c47b7ba5809e00dd069727cae10d55d521c555",
+  "610e89a848dbf911db14e4559a55ab1ef2e8e92f05f617fae47a50f2d02be0e9",
+  "875941dc8b53ca1d29d932b48002d1ffcf50ee68b8c20a7e51d86f41144db505",
+  # Filepath: .github/workflows/golf-integration-send-translations.yml
+  "db27e5701fa66b5d86bf05fbe69d70916c4c043059769ab08447545b7b103df1",
+  # Filepath: tests/Unit/Repositories/WooCommerce/SessionRepositoryTest.php
+  "9e6ded1f3a50ed24e673133dffcc1f4691ebc68abcf96e7d8c0863a13537e154",
+]

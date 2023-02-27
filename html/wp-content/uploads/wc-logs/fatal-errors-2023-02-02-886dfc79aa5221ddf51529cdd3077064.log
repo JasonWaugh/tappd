@@ -1,0 +1,139 @@
+2023-02-02T21:42:31+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in /var/www/wp-content/plugins/functions/functions.php:130
+Stack trace:
+#0 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#1 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/wp-settings.php(617): do_action('init')
+#4 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#5 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#6 /var/www/wp-login.php(12): require('/var/www/wp-loa...')
+#7 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 130
+
+2023-02-02T21:42:33+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in /var/www/wp-content/plugins/functions/functions.php:130
+Stack trace:
+#0 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#1 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/wp-settings.php(617): do_action('init')
+#4 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#5 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#6 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#7 /var/www/index.php(17): require('/var/www/wp-blo...')
+#8 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 130
+
+2023-02-02T22:14:33+00:00 CRITICAL Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, string given in /var/www/wp-content/plugins/functions/functions.php:160
+Stack trace:
+#0 /var/www/wp-content/plugins/functions/functions.php(160): fwrite('function_name_l...', '[ 03-02-2023 00...')
+#1 /var/www/wp-content/plugins/functions/functions.php(134): log_to_console('[ 03-02-2023 00...', 'is_user_registe...')
+#2 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#3 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/wp-settings.php(617): do_action('init')
+#6 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#7 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#8 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#9 /var/www/index.php(17): require('/var/www/wp-blo...')
+#10 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 160
+
+2023-02-02T22:17:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function log_to_console(), 1 passed in /var/www/wp-content/plugins/functions/functions.php on line 119 and exactly 2 expected in /var/www/wp-content/plugins/functions/functions.php:149
+Stack trace:
+#0 /var/www/wp-content/plugins/functions/functions.php(119): log_to_console('[ 03-02-2023 00...')
+#1 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#2 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/wp-settings.php(617): do_action('init')
+#5 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#6 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#7 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#8 /var/www/index.php(17): require('/var/www/wp-blo...')
+#9 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 149
+
+2023-02-02T22:17:36+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, string given in /var/www/wp-content/plugins/functions/functions.php:161
+Stack trace:
+#0 /var/www/wp-content/plugins/functions/functions.php(161): fclose('is_user_registe...')
+#1 /var/www/wp-content/plugins/functions/functions.php(134): log_to_console('[ 03-02-2023 00...', 'is_user_registe...')
+#2 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#3 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/wp-settings.php(617): do_action('init')
+#6 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#7 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#8 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#9 /var/www/index.php(17): require('/var/www/wp-blo...')
+#10 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 161
+
+2023-02-02T22:18:04+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, string given in /var/www/wp-content/plugins/functions/functions.php:161
+Stack trace:
+#0 /var/www/wp-content/plugins/functions/functions.php(161): fclose('is_user_registe...')
+#1 /var/www/wp-content/plugins/functions/functions.php(119): log_to_console('[ 03-02-2023 00...')
+#2 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#3 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/wp-settings.php(617): do_action('init')
+#6 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#7 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#8 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#9 /var/www/index.php(17): require('/var/www/wp-blo...')
+#10 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 161
+
+2023-02-02T22:18:05+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, string given in /var/www/wp-content/plugins/functions/functions.php:161
+Stack trace:
+#0 /var/www/wp-content/plugins/functions/functions.php(161): fclose('is_user_registe...')
+#1 /var/www/wp-content/plugins/functions/functions.php(134): log_to_console('[ 03-02-2023 00...')
+#2 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#3 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/wp-settings.php(617): do_action('init')
+#6 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#7 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#8 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#9 /var/www/index.php(17): require('/var/www/wp-blo...')
+#10 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 161
+
+2023-02-02T22:18:07+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, string given in /var/www/wp-content/plugins/functions/functions.php:161
+Stack trace:
+#0 /var/www/wp-content/plugins/functions/functions.php(161): fclose('is_user_registe...')
+#1 /var/www/wp-content/plugins/functions/functions.php(119): log_to_console('[ 03-02-2023 00...')
+#2 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#3 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/wp-settings.php(617): do_action('init')
+#6 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#7 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#8 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#9 /var/www/index.php(17): require('/var/www/wp-blo...')
+#10 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 161
+
+2023-02-02T22:52:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function log_to_console(), 1 passed in /var/www/wp-content/plugins/functions/functions.php on line 134 and exactly 2 expected in /var/www/wp-content/plugins/functions/functions.php:155
+Stack trace:
+#0 /var/www/wp-content/plugins/functions/functions.php(134): log_to_console('[ 03-02-2023 00...')
+#1 /var/www/wp-includes/class-wp-hook.php(308): is_user_registered('')
+#2 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/wp-settings.php(617): do_action('init')
+#5 /var/www/wp-config.php(105): require_once('/var/www/wp-set...')
+#6 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#7 /var/www/wp-login.php(12): require('/var/www/wp-loa...')
+#8 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 155
+
+2023-02-02T23:45:21+00:00 CRITICAL Uncaught Error: Call to a member function has_prop() on bool in /var/www/wp-content/plugins/functions/functions.php:102
+Stack trace:
+#0 /var/www/wp-includes/class-wp-hook.php(310): myplugin_registration_save(20)
+#1 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/wp-includes/user.php(2479): do_action('user_register', 20, Array)
+#4 /var/www/wp-includes/user.php(2747): wp_insert_user(Array)
+#5 /var/www/wp-includes/user.php(3390): wp_create_user('TestingRedirect', 'njVXf5qQRloh', 'jappo@gmail.com')
+#6 /var/www/wp-login.php(1049): register_new_user('TestingRedirect', 'jappo@gmail.com')
+#7 {main}
+  thrown in /var/www/wp-content/plugins/functions/functions.php on line 102
+

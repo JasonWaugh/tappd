@@ -1,0 +1,105 @@
+# Translation of Plugins - Otter &#8211; Page Builder Blocks &amp; Extensions for Gutenberg - Development (trunk) in English (South Africa)
+# This file is distributed under the same license as the Plugins - Otter &#8211; Page Builder Blocks &amp; Extensions for Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-03 10:25:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: en_ZA\n"
+"Project-Id-Version: Plugins - Otter &#8211; Page Builder Blocks &amp; Extensions for Gutenberg - Development (trunk)\n"
+
+#: inc/plugins/class-options-settings.php:141
+msgid "Anonymous data tracking object."
+msgstr "Anonymous data tracking object."
+
+#: inc/server/class-dashboard-server.php:121
+msgid "Sorry, the directory doesn't exist."
+msgstr "Sorry, the directory doesn't exist."
+
+#: inc/server/class-dashboard-server.php:137
+msgid "Styles deleted."
+msgstr "Styles deleted."
+
+#: inc/server/class-dashboard-server.php:102
+msgid "Sorry, the filesystem isn't writeable."
+msgstr "Sorry, the filesystem isn't writeable."
+
+#: inc/plugins/class-options-settings.php:131 build/dashboard/index.js:1
+msgid "Become a contributor by opting in to our anonymous data tracking. We guarantee no sensitive data is collected."
+msgstr "Become a contributor by opting in to our anonymous data tracking. We guarantee no sensitive data is collected"
+
+#: otter-blocks.php:57 build/blocks/blocks.js:1 build/blocks/blocks.js:5
+#: build/blocks/blocks.js:9 build/blocks/blocks.js:14 build/blocks/blocks.js:16
+msgid "Settings"
+msgstr "Settings"
+
+#: inc/plugins/class-options-settings.php:76 build/dashboard/index.js:1
+msgid "Blocks Animation module allows to add CSS animations to each block in Block Editor."
+msgstr "Blocks Animation module allows to add CSS animations to each block in Block Editor."
+
+#: inc/plugins/class-options-settings.php:43
+msgid "Redirect on new install."
+msgstr "Redirect on new install."
+
+#: inc/plugins/class-options-settings.php:65 build/dashboard/index.js:1
+msgid "Custom CSS module allows to add custom CSS to each block in Block Editor."
+msgstr "Custom CSS module allows to add custom CSS to each block in Block Editor."
+
+#: inc/class-main.php:30 inc/class-registration.php:116
+#: inc/plugins/class-dashboard.php:40 inc/plugins/class-dashboard.php:41
+msgid "Otter"
+msgstr "Otter"
+
+#: inc/class-main.php:31
+msgid "Blocks for Gutenberg"
+msgstr "Blocks for Gutenberg"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Plugin URI of the plugin
+msgid "https://themeisle.com/plugins/otter-blocks"
+msgstr "https://themeisle.com/plugins/otter-blocks"
+
+#. Author of the plugin
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#: inc/class-blocks-animation.php:237 inc/class-blocks-animation.php:249
+#: inc/class-blocks-css.php:221 inc/class-blocks-css.php:233
+#: inc/class-blocks-export-import.php:90 inc/class-blocks-export-import.php:102
+#: inc/class-registration.php:965 inc/class-registration.php:977
+#: inc/css/class-block-frontend.php:692 inc/css/class-block-frontend.php:704
+#: inc/css/class-css-handler.php:476 inc/css/class-css-handler.php:488
+#: inc/integrations/class-form-email.php:244
+#: inc/integrations/class-form-email.php:256
+#: inc/integrations/class-form-providers.php:141
+#: inc/integrations/class-form-providers.php:153
+#: inc/plugins/class-block-conditions.php:273
+#: inc/plugins/class-block-conditions.php:285
+#: inc/plugins/class-dashboard.php:171 inc/plugins/class-dashboard.php:183
+#: inc/plugins/class-dynamic-content.php:613
+#: inc/plugins/class-dynamic-content.php:625
+#: inc/plugins/class-options-settings.php:467
+#: inc/plugins/class-options-settings.php:479
+#: inc/render/amp/class-circle-counter-block.php:103
+#: inc/render/amp/class-circle-counter-block.php:115
+#: inc/render/amp/class-lottie.block.php:85
+#: inc/render/amp/class-lottie.block.php:97
+#: inc/render/amp/class-slider-block.php:87
+#: inc/render/amp/class-slider-block.php:99
+#: inc/render/class-masonry-variant.php:105
+#: inc/render/class-masonry-variant.php:117
+#: inc/server/class-dashboard-server.php:200
+#: inc/server/class-dashboard-server.php:212
+#: inc/server/class-dynamic-content-server.php:231
+#: inc/server/class-dynamic-content-server.php:243
+#: inc/server/class-form-server.php:722 inc/server/class-form-server.php:734
+#: inc/server/class-plugin-card-server.php:162
+#: inc/server/class-plugin-card-server.php:174
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin' huh?"

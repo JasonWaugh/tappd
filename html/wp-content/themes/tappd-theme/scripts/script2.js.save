@@ -1,0 +1,9 @@
+var card_id = document.getElementsByClassName("acf-field-635ffb5ce730f");
+card_id.style.display = "none";
+
+console.log(window.location.href);
+
+var location = window.location.href;
+var card_id = location.split(/)
+
+if(window.location.href)

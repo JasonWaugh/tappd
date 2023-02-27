@@ -1,0 +1,2 @@
+[ 03-02-2023 00:26:41 ] function call : is_user_registered() ----------------------- 
+[ 03-02-2023 00:26:41 ] is_user_registered() : condition met : preg_match( /\/users\/[0-9]+/ ) = FALSE 
