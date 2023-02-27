@@ -1,2 +1,5 @@
 wp-content/uploads
-*.jpg\n*.jpeg\n*.png\n*.gif\n
+*.jpg
+*.jpeg
+*.png
+*.gif
